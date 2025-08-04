@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'; // Import React and useState
 import { Button } from "@/components/ui/button"
-import Navbar from "@/components/navbar";
+//import Navbar from "@/components/navbar";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import {
@@ -97,7 +97,7 @@ export default function Portfolio() {
                 <a href="#contact">
   <Button size="lg" className="btn-connect-white-blue">
     <Mail className="mr-2 h-5 w-5" />
-    Let's Connect
+    Let&aposs Connect
   </Button>
 </a>
               </div>
@@ -568,11 +568,13 @@ export default function Portfolio() {
   <CardHeader>
     {/* This is the new div for the image */}
     <div className="w-full h-48 rounded-lg mb-4 overflow-hidden">
-      <img
-        src="/generate.png" // Replace with the actual path to your image
-        alt="GitHub Profile"
-        className="w-full h-full object-cover transition-transform duration-300"
-      />
+      <Image
+  src="/generate.png"
+  alt="GitHub Profile"
+  width={400}  // Example value - adjust as needed
+  height={200} // Example value - adjust as needed
+  className="w-full h-full object-cover transition-transform duration-300"
+/>
     </div>
     <CardTitle className="text-foreground">Explore More Projects</CardTitle>
     <CardDescription className="text-foreground">View my full portfolio of projects and contributions on my GitHub profile.</CardDescription>
