@@ -71,6 +71,34 @@ body {
 }
 
 /* Navigation bar styling */
+/* Add this new CSS */
+.mobile-menu-toggle {
+  display: none; /* Hide toggle button by default */
+  cursor: pointer;
+  z-index: 101; /* Ensure it's on top of other elements */
+}
+
+/* For screen sizes smaller than 768px (common mobile breakpoint) */
+@media (max-width: 767px) {
+  nav .nav-links {
+    display: none; /* Hide the regular navigation links */
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px; /* Adjust based on your nav height */
+    left: 0;
+    background-color: var(--accent2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  nav .nav-links.open {
+    display: flex; /* Show the mobile menu when it has the 'open' class */
+  }
+
+  .mobile-menu-toggle {
+    display: block; /* Show the toggle button */
+  }
+}
 nav {
   background-color: var(--accent2);
   padding: 1rem 10%;

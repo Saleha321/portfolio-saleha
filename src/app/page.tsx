@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'; // Import React and useState
 import { Button } from "@/components/ui/button"
-//import Navbar from "@/components/navbar";
+import Navbar from "@/components/navbar";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import {
@@ -59,25 +59,9 @@ export default function Portfolio() {
   };
 
   return (
-    <div className="min-h-screen">
-      {/* Navigation */}
-      <nav className="fixed top-0 w-full z-50 bg-accent2/80 backdrop-blur-md">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            <span className="font-bold text-white pr-2 border-r border-gray-600">SN</span>
-            <div className="hidden md:flex space-x-8">
-              <a href="#home" className="text-foreground hover:text-accent1 transition-colors">Home</a>
-              <a href="#about" className="text-foreground hover:text-accent1 transition-colors">About</a>
-              <a href="#education" className="text-foreground hover:text-accent1 transition-colors">Education</a>
-              <a href="#experience" className="text-foreground hover:text-accent1 transition-colors">Experience</a>
-              <a href="#skills" className="text-foreground hover:text-accent1 transition-colors">Skills</a>
-              <a href="#projects" className="text-foreground hover:text-accent1 transition-colors">Projects</a>
-              <a href="#contact" className="text-foreground hover:text-accent1 transition-colors">Contact</a>
-              
-            </div>
-          </div>
-        </div>
-      </nav>
+     <div className="min-h-screen">
+      {/* Use the new Navbar component here */}
+      <Navbar />
 
       {/* Hero Section with original image */}
       <section id="home" className="hero-section">
@@ -97,7 +81,7 @@ export default function Portfolio() {
                 <a href="#contact">
   <Button size="lg" className="btn-connect-white-blue">
     <Mail className="mr-2 h-5 w-5" />
-    Let&aposs Connect
+    {'Let\'s Connect'}
   </Button>
 </a>
               </div>
