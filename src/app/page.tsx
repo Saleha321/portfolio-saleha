@@ -617,7 +617,7 @@ export default function Portfolio() {
                 </div>
                 <div className="flex items-center">
                   <Phone className="h-6 w-6 mr-4 text-accent1" />
-                  <span className="text-foreground">+92 5255103</span>
+                  <span className="text-foreground">+92 3368505445</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="h-6 w-6 mr-4 text-accent1" />
