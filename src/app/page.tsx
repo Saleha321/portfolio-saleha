@@ -104,7 +104,7 @@ export default function Portfolio() {
             </div>
                <div className="scrolling-text-container">
   <p className="scrolling-text">
-    Hello, I'm Saleha Noor Aspiring AI Engineer BSCS Student Turning Data into Intelligent Solutions 
+    Hello, I&apos;m Saleha Noor Aspiring AI Engineer BSCS Student Turning Data into Intelligent Solutions 
   </p>
 </div>
             <div className="flex-shrink-0 fade-in-on-load">
@@ -138,13 +138,13 @@ export default function Portfolio() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-foreground mb-6 leading-relaxed">
-                I'm a passionate AI enthusiast and 5th-semester BSCS student at Fazaia Bilquis College, affiliated with Air University. My journey in artificial intelligence began with curiosity and has evolved into a deep commitment to creating intelligent solutions that make a difference.
+                I&apos;m a passionate AI enthusiast and 5th-semester BSCS student at Fazaia Bilquis College, affiliated with Air University. My journey in artificial intelligence began with curiosity and has evolved into a deep commitment to creating intelligent solutions that make a difference.
               </p>
               <p className="text-lg text-foreground mb-6 leading-relaxed">
-                With hands-on experience in machine learning, robotics, and data analysis, I'm dedicated to bridging the gap between theoretical knowledge and practical applications. I believe in the transformative power of AI to solve real-world problems and improve lives.
+                With hands-on experience in machine learning, robotics, and data analysis, I&apos;m dedicated to bridging the gap between theoretical knowledge and practical applications. I believe in the transformative power of AI to solve real-world problems and improve lives.
               </p>
               <p className="text-lg text-foreground leading-relaxed">
-                Currently expanding my expertise through an AI internship at Developers Hub Corporation, I'm always eager to learn, collaborate, and contribute to innovative projects in the AI space.
+                Currently expanding my expertise through an AI internship at Developers Hub Corporation, I&apos;m always eager to learn, collaborate, and contribute to innovative projects in the AI space.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-6">
@@ -296,7 +296,7 @@ export default function Portfolio() {
             </CardHeader>
             <CardContent>
               <p className="text-foreground mb-4">
-                Working on cutting-edge AI projects, developing machine learning models, and contributing to innovative solutions. Gaining hands-on experience in:
+                Working on cutting-edge AI projects, developing machine learning models, and contributing to innovative solutions.Gaining hands-on experience in:
               </p>
               <ul className="list-disc list-inside text-foreground space-y-2">
                 <li>Machine Learning model development and optimization</li>
@@ -599,10 +599,10 @@ export default function Portfolio() {
       <section id="contact" className="py-16 px-4 sm:px-6 lg:px-8 dark-section">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-primary mb-4">Let's Connect</h2>
+            <h2 className="text-4xl font-bold text-primary mb-4">Let&apos;s Connect</h2>
             <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
             <p className="text-xl text-foreground max-w-2xl mx-auto">
-              Ready to collaborate on exciting AI projects or discuss opportunities? I'd love to hear from you!
+              Ready to collaborate on exciting AI projects or discuss opportunities? I&apos;d love to hear from you!
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-12">
